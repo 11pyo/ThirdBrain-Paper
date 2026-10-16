@@ -1,5 +1,8 @@
 # ThirdBrain-Paper — Research on AI-Maintained Knowledge Artifacts and Failure Logs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23408588.svg)](https://doi.org/10.5281/zenodo.23408588)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 > Research artifacts, evaluation code, benchmarks, and failure taxonomies from the Third-Party-Brain and AI-collaborative operational systems.
 
 ---
