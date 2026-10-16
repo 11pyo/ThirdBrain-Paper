@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use these research artifacts or datasets, please cite them as below."
+authors:
+  - family-names: "Han"
+    given-names: "Wonpyo"
+    orcid: ""
+title: "ThirdBrain-Paper: Empirical Research Artifacts, Benchmarks, and Failure Taxonomies for AI-Maintained Operational Knowledge Systems"
+version: 1.0.0
+date-released: 2026-10-16
+url: "https://github.com/11pyo/ThirdBrain-Paper"
+license: MIT

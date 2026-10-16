@@ -1,0 +1,19 @@
+{
+  "title": "ThirdBrain-Paper: Empirical Research Artifacts, Benchmarks, and Failure Taxonomies for AI-Maintained Operational Knowledge Systems",
+  "upload_type": "software",
+  "description": "Empirical research artifacts, datasets, codebooks, and evaluation benchmarks examining human-AI collaborative workflows in enterprise operational settings. Includes benchmarks for concurrency/retrieval in local AI-indexable knowledge archives (Paper 1) and a 4-month longitudinal failure log dataset across 22 model transitions with dual-coder categorization (Paper 2).",
+  "creators": [
+    {
+      "name": "Han, Wonpyo"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Human-AI Collaboration",
+    "Knowledge Management",
+    "LLM Agents",
+    "Enterprise Software Operations",
+    "Failure Taxonomy"
+  ]
+}
