@@ -1,0 +1,13 @@
+# Python / OS caches
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# Sensitive / Private data (STRICT)
+**/data_private/
+data_private/
+*.key
+*.token
+*.local.md

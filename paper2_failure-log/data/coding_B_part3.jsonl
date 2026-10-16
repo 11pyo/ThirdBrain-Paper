@@ -1,0 +1,1 @@
+{"n": 180, "primary": "F10", "detected_by": "tool", "recurrence": "yes", "note": "인라인 python -c 셸 이스케이프가 한 겹 더 벗겨져 실제 줄바꿈 삽입→보드 JSON 파손(결과는 F8성이나 원인은 셸 조작 오용). _check_board_sync.py 오류로 발견, 같은 세션 두 번째·규칙 있었는데 재발"}

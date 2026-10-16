@@ -1,0 +1,5 @@
+method,recall@1,recall@3,mrr@10,lat_ms,n,deps,setup
+ours (deployed: BM25 c2g),0.8163,0.8571,0.8567,1.2573,49,rank_bm25,BM25 char-2gram (server live)
+BM25 (word),0.7551,0.8776,0.8289,0.5711,49,rank_bm25,index 42ms
+BM25 (char-2gram),0.8163,0.8571,0.8567,1.0953,49,rank_bm25,index 153ms
+"dense (MiniLM-multi, chunked)",0.1224,0.2245,0.1985,68.1336,49,sentence-transformers+torch (~0.5GB model),load 11866ms + encode 461p 52005ms

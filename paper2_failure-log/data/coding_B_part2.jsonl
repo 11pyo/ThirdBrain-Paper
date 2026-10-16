@@ -1,0 +1,93 @@
+{"n": 95, "primary": "F8", "detected_by": "tool", "recurrence": "no", "note": "공개본 이식 시 부속 데이터에 사내코드 혼입, 푸시 전 스캔으로 발견"}
+{"n": 96, "primary": "F9", "detected_by": "user", "recurrence": "yes", "note": "요청문 발신자 소속 오기재, '또' 언급"}
+{"n": 97, "primary": "F4", "detected_by": "third_party", "recurrence": "no", "note": "빈 RFC 본문을 미완성으로 단정해 DESTINATION 제거"}
+{"n": 98, "primary": "F2", "detected_by": "tool", "recurrence": "no", "note": "DATS/TIMS 구분자 자동변환으로 자릿수 초과"}
+{"n": 99, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "취소선 필드는 안 쓴다고 믿고 초기값 송신"}
+{"n": 100, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "길이만으로 비밀번호 동일 추론"}
+{"n": 101, "primary": "F10", "detected_by": "unclear", "recurrence": "no", "note": "정확일치 grep으로 태그 수 오산 후 보고"}
+{"n": 102, "primary": "F4", "detected_by": "user", "recurrence": "yes", "note": "사용자 규칙 대신 표본 하나로 메커니즘 창작"}
+{"n": 103, "primary": "F2", "detected_by": "user", "recurrence": "yes", "note": "화면 금액에 ×100 이중 적용, 59·64 반대방향"}
+{"n": 104, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "아카이브 단정을 검증 없이 타팀 문서에 인용"}
+{"n": 105, "primary": "F8", "detected_by": "self", "recurrence": "no", "note": "백업을 축약 사본으로 저장해 기준선 훼손"}
+{"n": 106, "primary": "F10", "detected_by": "self", "recurrence": "no", "note": "T-Code를 프로그램명으로 ADT URL에 사용"}
+{"n": 107, "primary": "F6", "detected_by": "user", "recurrence": "no", "note": "CTS 네이밍 컨벤션 대조 절차 생략"}
+{"n": 108, "primary": "F2", "detected_by": "user", "recurrence": "yes", "note": "KRW DB값 ×100 누락, 3번째"}
+{"n": 109, "primary": "F10", "detected_by": "user", "recurrence": "no", "note": "활성화 후 옛 로드 세션 문제 미고려"}
+{"n": 110, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "아카이브 조각으로 문서 정의를 지어냄"}
+{"n": 111, "primary": "F10", "detected_by": "self", "recurrence": "no", "note": "인코딩 예외로 파일 0바이트화"}
+{"n": 112, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "검증 안 한 '안 된다'를 문서 근거로 기재"}
+{"n": 113, "primary": "F8", "detected_by": "self", "recurrence": "no", "note": "자기참조 문서 마커 중복으로 편집 파손"}
+{"n": 114, "primary": "F9", "detected_by": "user", "recurrence": "no", "note": "영향도 평가 칸을 장황하게 작성"}
+{"n": 115, "primary": "F5", "detected_by": "user", "recurrence": "no", "note": "과거 보류 결정 모르고 dismode 변경"}
+{"n": 116, "primary": "F8", "detected_by": "self", "recurrence": "no", "note": "재작성으로 LF→CRLF 형식 파손"}
+{"n": 117, "primary": "F10", "detected_by": "self", "recurrence": "no", "note": "활성 탭 미확인으로 다른 시트 탭에 기록"}
+{"n": 118, "primary": "F8", "detected_by": "user", "recurrence": "no", "note": "AI 수행 검증을 사용자 성과로 기록"}
+{"n": 119, "primary": "F4", "detected_by": "self", "recurrence": "yes", "note": "따옴표 파싱 오류+되돌림 서사로 .env 오진, 실수100 재발"}
+{"n": 120, "primary": "F1", "detected_by": "self", "recurrence": "no", "note": "낡은 카드 메모를 현재 화면 가이드로 옮김"}
+{"n": 121, "primary": "F5", "detected_by": "self", "recurrence": "no", "note": "의도된 분기 로직을 버그 가능성으로 언급"}
+{"n": 122, "primary": "F3", "detected_by": "tool", "recurrence": "no", "note": "텍스트요소 미활성인데 화면 정상으로 완료 판단"}
+{"n": 123, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "화면 조건 대신 자의 조건으로 후보 검증"}
+{"n": 124, "primary": "F7", "detected_by": "user", "recurrence": "no", "note": "답 있는데 과잉 검증·정리 먼저 해 답변 지연"}
+{"n": 125, "primary": "F10", "detected_by": "user", "recurrence": "no", "note": "폴링·무필터 출력으로 왕복 비용 폭증, 검증 순서 오류"}
+{"n": 126, "primary": "F4", "detected_by": "self", "recurrence": "yes", "note": "표본 방향 미구분·DDIC 존재를 사용 근거로, 기록된 함정 재밟음"}
+{"n": 127, "primary": "F10", "detected_by": "self", "recurrence": "yes", "note": "인라인 heredoc 편집 재사용으로 연쇄 사고"}
+{"n": 128, "primary": "F4", "detected_by": "user", "recurrence": "yes", "note": "사문화 코드 무관 판정·죽은 테이블에 설계, 126 재발"}
+{"n": 129, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "넘겨받은 전칭 명제를 검증 없이 설계 토대로"}
+{"n": 130, "primary": "F10", "detected_by": "self", "recurrence": "no", "note": "멀티라인 정규식 마스킹 결함·curl 한글 깨짐"}
+{"n": 131, "primary": "F8", "detected_by": "self", "recurrence": "no", "note": "비밀값 백업을 같은 공개 구역에 저장"}
+{"n": 132, "primary": "F3", "detected_by": "user", "recurrence": "no", "note": "내 셸 실행만으로 동작 확인, 사용자 경로 미검증"}
+{"n": 133, "primary": "F1", "detected_by": "user", "recurrence": "yes", "note": "옛 기록 결재선을 실측 없이 기재, 실수120 유형"}
+{"n": 134, "primary": "F7", "detected_by": "user", "recurrence": "no", "note": "무관 조사 갈래 추가로 1시간 지연"}
+{"n": 135, "primary": "F3", "detected_by": "user", "recurrence": "no", "note": "수정 후 브라우저 실행 확인 안 함"}
+{"n": 136, "primary": "F5", "detected_by": "user", "recurrence": "no", "note": "부재중 대리인 목적 무시, 미답변 건까지 제외"}
+{"n": 137, "primary": "F11", "detected_by": "user", "recurrence": "no", "note": "무인 운영 내구성 설계 누락"}
+{"n": 138, "primary": "F10", "detected_by": "user", "recurrence": "no", "note": "CLI 출력 순수 JSON 가정, stderr 혼합"}
+{"n": 139, "primary": "F4", "detected_by": "self", "recurrence": "no", "note": "로그 4행으로 PDA 동작 일반화"}
+{"n": 140, "primary": "F4", "detected_by": "self", "recurrence": "no", "note": "제목·스니펫만으로 부정 명제 단정"}
+{"n": 141, "primary": "F10", "detected_by": "user", "recurrence": "no", "note": "조회 시간초과를 없음/닫힘으로 처리"}
+{"n": 142, "primary": "F10", "detected_by": "self", "recurrence": "yes", "note": "파이프 자르기로 종료코드 오판, 같은 카드 두 번째"}
+{"n": 143, "primary": "F3", "detected_by": "user", "recurrence": "no", "note": "합성 이벤트 시험만으로 유지된다고 기재"}
+{"n": 144, "primary": "F7", "detected_by": "user", "recurrence": "no", "note": "지정 안 된 세션에 연락해 수신자 범위 확대"}
+{"n": 145, "primary": "F7", "detected_by": "user", "recurrence": "no", "note": "자체 발견 결함을 현업 SR에 섞음"}
+{"n": 146, "primary": "F10", "detected_by": "self", "recurrence": "no", "note": "transportInfo TRANSPORTS 목록 오독"}
+{"n": 147, "primary": "F10", "detected_by": "tool", "recurrence": "yes", "note": "명령줄 부분일치로 자기 프로세스까지 종료"}
+{"n": 148, "primary": "F4", "detected_by": "self", "recurrence": "no", "note": "요약만 보고 규칙 전제 세워 결정 요청"}
+{"n": 149, "primary": "F4", "detected_by": "self", "recurrence": "no", "note": "측정 전 효과 주장·기준선 혼동"}
+{"n": 150, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "원본 대조 없이 내 변수 탓으로 오진"}
+{"n": 151, "primary": "F4", "detected_by": "self", "recurrence": "yes", "note": "이름 확인 없이 CTS 번호 짐작, 146 계열"}
+{"n": 152, "primary": "F8", "detected_by": "user", "recurrence": "no", "note": "아카이브 내 테이블 설명 불일치"}
+{"n": 153, "primary": "F7", "detected_by": "user", "recurrence": "no", "note": "트랙 분리하며 현업 요구사항까지 삭제"}
+{"n": 154, "primary": "F3", "detected_by": "user", "recurrence": "yes", "note": "문법검사 없이 승인·원본 대조 없이 새 추정"}
+{"n": 155, "primary": "F10", "detected_by": "self", "recurrence": "yes", "note": "include 활성화 경로 오안내, 카드에 기록된 함정"}
+{"n": 156, "primary": "F4", "detected_by": "self", "recurrence": "no", "note": "자릿수로 필드 의미 단정"}
+{"n": 157, "primary": "F9", "detected_by": "user", "recurrence": "no", "note": "원화 표기를 ÷100 저장으로 잘못 설명"}
+{"n": 158, "primary": "F5", "detected_by": "user", "recurrence": "no", "note": "SD 소유 기준을 합의 항목으로 올림"}
+{"n": 159, "primary": "F6", "detected_by": "user", "recurrence": "no", "note": "채번 후 _tmp 폴더 절차 생략"}
+{"n": 160, "primary": "F4", "detected_by": "self", "recurrence": "no", "note": "빈 필드를 경로 증거로 사용, 연도 없는 전표 조회"}
+{"n": 161, "primary": "F10", "detected_by": "user", "recurrence": "no", "note": "표준 함수 파라미터명 기억으로 작성"}
+{"n": 162, "primary": "F10", "detected_by": "self", "recurrence": "no", "note": "행 상한에 잘린 조회로 기대값 산출"}
+{"n": 163, "primary": "F10", "detected_by": "self", "recurrence": "no", "note": "SQL 한 줄 255자 제한을 형태 제약으로 오진"}
+{"n": 164, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "오브젝트별 확인 없이 임포트 무해 반복"}
+{"n": 165, "primary": "F10", "detected_by": "tool", "recurrence": "no", "note": "전역 선언을 사용 지점 뒤에 두도록 안내"}
+{"n": 166, "primary": "F10", "detected_by": "self", "recurrence": "yes", "note": "CTS 작업번호를 요청으로 오독, 146 계열"}
+{"n": 167, "primary": "F9", "detected_by": "user", "recurrence": "yes", "note": "영향도 평가 장황, 실수114 재발"}
+{"n": 168, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "화면 안 보고 테이블 필드로 선택화면 단정"}
+{"n": 169, "primary": "F2", "detected_by": "self", "recurrence": "yes", "note": "오라클 스크립트 KRW ×100 누락, 반복"}
+{"n": 170, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "필수항목 누락·뒤 단계 규칙 추측 안내"}
+{"n": 171, "primary": "F4", "detected_by": "self", "recurrence": "no", "note": "판정 FORM 안 읽고 필드값으로 결론"}
+{"n": 172, "primary": "F10", "detected_by": "self", "recurrence": "no", "note": "포커스·클립보드 미확인 붙여넣기로 공유 시트 오염"}
+{"n": 173, "primary": "F9", "detected_by": "user", "recurrence": "no", "note": "권한 누락을 원인 없이 보고"}
+{"n": 174, "primary": "F9", "detected_by": "user", "recurrence": "no", "note": "확인 가능한 항목을 타 부서에 질문"}
+{"n": 175, "primary": "F3", "detected_by": "self", "recurrence": "no", "note": "타 세션 완료 주장을 흔적 대조 없이 신뢰"}
+{"n": 176, "primary": "F9", "detected_by": "user", "recurrence": "no", "note": "의도된 설계 사실을 결정 게이트에 안 세움"}
+{"n": 177, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "우리 쪽 기록 없음을 이중발행 없음으로 확대"}
+{"n": 178, "primary": "F9", "detected_by": "user", "recurrence": "no", "note": "운영서버 안내에 실행/보기 구분·경고 누락"}
+{"n": 179, "primary": "F4", "detected_by": "user", "recurrence": "no", "note": "대행자를 담당자로 추론해 기록"}
+{"n": 181, "primary": "F4", "detected_by": "third_party", "recurrence": "no", "note": "외부 정책 확인 없이 초안 방향 전제"}
+{"n": 182, "primary": "F10", "detected_by": "user", "recurrence": "no", "note": "로그 구조 모르고 날짜 grep으로 완료건 누락"}
+{"n": 183, "primary": "F10", "detected_by": "user", "recurrence": "yes", "note": "client120 MCP로 개발·CTS 진행, 실수63 구조"}
+{"n": 184, "primary": "F10", "detected_by": "tool", "recurrence": "yes", "note": "FM 인터페이스 타입 기억 단정, 실수20 재발"}
+{"n": 185, "primary": "F4", "detected_by": "self", "recurrence": "no", "note": "DELFLG만으로 살아있는 여신 판정해 일치 주장"}
+{"n": 186, "primary": "F7", "detected_by": "user", "recurrence": "no", "note": "파생 인프라 이슈를 본류 밖까지 추적"}
+{"n": 187, "primary": "F1", "detected_by": "user", "recurrence": "no", "note": "이 PC 관측 범위를 존재 여부로 확대"}
+{"n": 188, "primary": "F4", "detected_by": "self", "recurrence": "no", "note": "등록 재고 게이트 추정, 아카이브 미확인"}

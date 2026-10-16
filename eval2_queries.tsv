@@ -1,0 +1,50 @@
+query	gold_id
+복수오더랑 중복오더가 무슨 차이야	dup-multi-order
+세16엔으로 데이터 수정하려면 뭐가 필요해	tcode-extended
+내부오더 P100 U100 이런 코드 뜻이 뭐야	order-type-io
+판매오더 유형 코드 종류 정리해줘	sales-order-type
+구매요청 유형 NB ZB 차이	purchase-type
+여신을 전사로 보는거랑 팀별로 보는거 차이	credit-structure
+에스아이 여신이 뭐야 어음이랑 미수금 한도	credit-terms
+신용 노출액이랑 디씨디 해제	credit-exposure-dcd
+영업사원이랑 운영자 업무가 어떻게 나뉘어	role-division
+차변 대변 개념이랑 반제가 뭔지	acct-debit-credit
+전표 번호 앞자리 보고 무슨 문서인지 어떻게 알아	doc-flow-diagram
+전자세금계산서 정발행이랑 역발행 차이	tax-issuance-direction
+오더투캐시 회계 통합 시점이 언제야	sap-std-o2c
+지유아이 라벨이랑 필드명 독일어 어원 사전	data-elements
+프로그램 셀렉션 화면 입력값 파라미터 정리	tcode-params
+베이스오더 출고부터 매출승인까지 흐름	base-order-flow
+에스피알 오더 구매 입고 절차	spr-order-flow
+에스아이 오더 진행매출 투입요청 흐름	si-order-flow
+유지보수 월별 용역 오더 처리	sm-order-flow
+반품오더 마이너스 계산서 처리 흐름	return-order-flow
+무상반품 무상대체 가격 빵원 오더	free-return-flow
+여신점검 블록 풀어주는 프로세스	credit-check-process
+퇴사자 생겨서 조직개편 때 오더 넘기는거	proc-order-transfer
+매출 취소할때 영업팀장 재경팀장 결재	proc-sales-cancel
+네이버 클라우드 매입 배분 기안 매달 하는거	proc-cloud-rebill
+아이티지씨 씨에스알 월간 보고 내부회계	proc-itgc-csr-report
+여신 설정 아키텍처 어떻게 잡혀있어	credit-config-sap
+월말 결산하는데 회계전기가 막혔어	month-end-closing
+디에스디 디에스피 아이리스 시스템 환경	ops-system-env
+정보처리의뢰서랑 씨티에스 이관 릴리즈 절차	ops-cts-procedure
+연말 조직개편 주차 관리 12월에 하는일	ops-org-restructure
+수정해야되는데 출고했고 세금계산서도 나갔어 어디서부터	fix-cancel-decision
+결재 끝난 매출품의 데이터 수정하거나 지우기	ts-doc-modify
+세금계산서 마이너스로 다시 발행	ts-tax-invoice
+달 넘어가서 매출승인 가격결정일 문제	ts-date-cross
+재고 이동 잘못돼서 출고 취소해야해	ts-move-stock
+계정 권한 팀 옮겨서 바꿔야해	ts-account-auth
+세금계산서 발행하다 오류코드 떴어 처리법	ts-tax-errorcodes
+빌링 했는데 회계문서가 안생기고 전기기간 막힘	ts-posting-issues
+대변메모 차변메모 영세율 처리하는법	ts-cr-dr
+바코드출고 화면에 판매단가 컬럼 넣어줘	ts-barcode-price
+판매처 잘못 넣어서 반품이 잘못 나갔어 취소	ts-wrong-customer-return
+계산서 발행 리스트 메일이 누락됐어 발행예정일 연도	ts-billing-schedule-miss
+전자세금계산서 발행하다 숫자변환 덤프 났어	ts-zrsd0010a-fi-dump
+고객마스터에 유통경로 추가하려고	man-customer
+내부오더 예산 부족해서 증액	man-io-budget
+출고 취소하고 에스아이 투입 취소해서 재고 복구	man-goods-issue
+오더유형 에스피알을 에스아이로 바꾸기	man-order-change
+우리 조직에 누가 무슨 문의를 해 부서 담당자	man-org-map
